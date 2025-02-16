@@ -1,6 +1,6 @@
-# Pydantic AI: Documentation Crawler and RAG Agent
+# Alpha Arc: Documentation Crawler and RAG Agent
 
-An intelligent documentation crawler and RAG (Retrieval-Augmented Generation) agent built using Pydantic AI and Supabase. The agent can crawl documentation websites, store content in a vector database, and provide intelligent answers to user questions by retrieving and analyzing relevant documentation chunks.
+An intelligent documentation crawler and RAG (Retrieval-Augmented Generation) agent built using Alpha Arc and Supabase. The agent can crawl documentation websites, store content in a vector database, and provide intelligent answers to user questions by retrieving and analyzing relevant documentation chunks.
 
 ## Features
 
@@ -23,8 +23,8 @@ An intelligent documentation crawler and RAG (Retrieval-Augmented Generation) ag
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/coleam00/ottomator-agents.git
-cd ottomator-agents/crawl4AI-agent
+git clone https://github.com/augustov58/alphaArc-assistant.git
+cd alphaArc-assistant
 ```
 
 2. Install dependencies (recommended to use a Python virtual environment):
@@ -60,7 +60,7 @@ In Supabase, do this by going to the "SQL Editor" tab and pasting in the SQL int
 To crawl and store documentation in the vector database:
 
 ```bash
-python crawl_pydantic_ai_docs.py
+python crawl_alpha_arc_docs.py
 ```
 
 This will:
@@ -98,7 +98,7 @@ CREATE TABLE site_pages (
 
 ### Chunking Configuration
 
-You can configure chunking parameters in `crawl_pydantic_ai_docs.py`:
+You can configure chunking parameters in `crawl_alpha_arc_docs.py`:
 ```python
 chunk_size = 5000  # Characters per chunk
 ```
@@ -110,8 +110,8 @@ The chunker intelligently preserves:
 
 ## Project Structure
 
-- `crawl_pydantic_ai_docs.py`: Documentation crawler and processor
-- `pydantic_ai_expert.py`: RAG agent implementation
+- `crawl_alpha_arc_docs.py`: Documentation crawler and processor
+- `alpha_arc_expert.py`: RAG agent implementation
 - `streamlit_ui.py`: Web interface
 - `site_pages.sql`: Database setup commands
 - `requirements.txt`: Project dependencies
