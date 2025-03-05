@@ -22,7 +22,7 @@ from pydantic_ai.messages import (
     RetryPromptPart,
     ModelMessagesTypeAdapter
 )
-from pydantic_ai_expert import pydantic_ai_expert, PydanticAIDeps
+from alphaArc_ai_expert import pydantic_ai_expert, PydanticAIDeps
 
 # Load environment variables
 from dotenv import load_dotenv
